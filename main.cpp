@@ -48,7 +48,7 @@ void createadmin()
     checkus>>checkusername;
     if(checkusername.length()>1)
     {
-        cout<<"Already admin exists you can't create a new admin"<<endl;
+        cout<<"Already  exists you can't create a new admin"<<endl;
         cout<<"1. Login"<<endl;
         cout<<"2. Exit"<<endl;
         int z;
@@ -90,12 +90,12 @@ void admin()
     cin>>n;
     if(n==1)
     {
-        cout<<"You Have entered 1"<<endl;
+        cout<<"You have entered 1"<<endl;
         loginadmin();
     }
      else if(n==2)
     {
-        cout<<"You Have entered 2"<<endl;
+        cout<<"You have entered 2"<<endl;
         createadmin();
     }
     else{
@@ -112,12 +112,12 @@ int main()
     cin>>n;
     if(n==1)
     {
-        cout<<"You Have entered 1"<<endl;
+        cout<<"You have entered 1"<<endl;
         admin();
     }
     else if(n==2)
     {
-        cout<<"You Have entered 2"<<endl;
+        cout<<"You have entered 2"<<endl;
     }
     else{
         cout<<"You have entered wrong position"<<endl;
